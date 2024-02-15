@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 import sklearn
 
-st.title("cars price prediction:")
+st.title("predict car prices:")
 
 from sklearn.ensemble import GradientBoostingRegressor 
 model=GradientBoostingRegressor()
